@@ -1,0 +1,5 @@
+https://zhuanlan.zhihu.com/p/34985026
+
+redis分库，集群机器
+
+key对应不同库
