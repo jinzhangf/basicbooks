@@ -1,0 +1,2 @@
+1. cache和数据库不一致问题
+https://www.cnblogs.com/duanxz/p/3740595.html
