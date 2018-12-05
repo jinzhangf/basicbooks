@@ -1,3 +1,9 @@
 1.b b+ 树
 http://blog.codinglabs.org/articles/theory-of-mysql-index.html
 http://www.cnblogs.com/vincently/p/4526560.html
+
+2. 二级索引
+https://blog.csdn.net/jijianshuai/article/details/79084874
+二级索引存储的是记录的主键，而不是数据存储的地址。
+
+

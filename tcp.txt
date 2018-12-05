@@ -1,0 +1,10 @@
+1. 流量控制往往指的是点对点通信量的控制，是个端到端的问题.用滑动窗口解决
+
+2. 拥塞控制就是防止过多的数据注入到网络中，这样可以使网络中的路由器或链路不致过载。
+因特网建议标准RFC2581定义了进行拥塞控制的四种算法，即慢开始（Slow-start)、拥塞避免（Congestion Avoidance)、快重传（Fast Restrangsmit)和快回复（Fast Recovery）
+
+3. time wait 和 close wait
+https://blog.csdn.net/hzrandd/article/details/74463313
+
+4. 三次握手，四次握手
+https://www.cnblogs.com/huhuuu/p/3572485.html
