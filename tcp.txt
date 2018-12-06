@@ -8,3 +8,6 @@ https://blog.csdn.net/hzrandd/article/details/74463313
 
 4. 三次握手，四次握手
 https://www.cnblogs.com/huhuuu/p/3572485.html
+
+5. 超时重传时间设置
+如果把超时重传时间设置太短，就会引起很多报文段的不必要的重传，使网络负荷增大。但若把超时重传时间设置的太长，那么网络空闲时间会增大，极大的降低了网络的效率
