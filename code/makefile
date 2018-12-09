@@ -1,17 +1,16 @@
-CFLAGS = -g -Wall -Werror --std=c++11 -g -Wno-sign-compare
-LDFLAGS = -lpthread
+LDFLAGS = -g -Wall --std=c++11 -Wno-sign-compare
 
 src = $(wildcard *.cpp)
 target = $(patsubst %.cpp, %, ${src})
+target2 = $(patsubst %, %.dSYM, ${target})
 
 .PHONY: all clean
 
-%.o:%.cpp
-	$(CC) ${CFLAGS} -c -o $@
-%:%.o
-	$(CC) ${LDFLAGS} -o $@
-
 all: ${target}
+
+%:%.o
+	${CC} ${LDFLAGS} -o $@
 
 clean:
 	rm -f ${target}
+	rm -rf ${target2}
