@@ -16,3 +16,10 @@ myisam性能更好，表锁
 2.两阶段提交
 https://blog.csdn.net/JesseYoung/article/details/37970271
 二阶段提交的缺陷在于如果C崩溃，所有Si可能都需要等待C，从而产生阻塞。
+
+3.INNODB是高并发互联网场景最为推荐的存储引擎
+根本原因是，就是其多版本并发控制（MVCC）。行锁，并发，事务回滚等多种特性都和MVCC相关
+
+4.意向锁
+https://juejin.im/post/5b85124f5188253010326360
+https://www.jianshu.com/p/e937830bc2de
